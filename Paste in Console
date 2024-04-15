@@ -38,3 +38,8 @@ jspdf.onload = function () {
 };
 jspdf.src = trustedURL;
 document.body.appendChild(jspdf);
+
+//Scroll down to the end of the PDF file to print out all the pages
+};
+jspdf.src = trustedURL;
+document.body.appendChild(jspdf);
